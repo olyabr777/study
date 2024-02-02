@@ -1,0 +1,116 @@
+body {
+    padding: 20px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 20px;
+    overflow: hidden
+}
+
+header {
+    background: #FEE4FF;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+header>ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+header>ul>li {
+    list-style: none;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    width: 124px;
+    background: #ffd1dc;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #B3234C;
+    ;
+
+}
+
+header>ul>li>a:hover {
+    text-decoration: underline;
+
+}
+
+header>.logo {
+    max-height: 100%;
+    width: auto;
+}
+
+.hobby {
+    background-color: #F8B6D3;
+    padding: 20px 30px;
+}
+
+.hobby h1,
+.hobby h2 {
+    color: #B3234C;
+    font-style: italic;
+    text-align: center;
+    font-size: 38px;
+    margin: 0 0 20px;
+}
+
+.hobby p {
+    color: #E64980;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+}
+
+.hobby img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hobby-light {
+    background-color: #FADDF2;
+    padding: 68px 30px;
+}
+
+.hobby-light h2 {
+    color: #B3234C;
+    font-style: italic;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hobby-light p {
+    color: #E64980;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    height: 100px;
+    background: url("../images/footer3.jpg") repeat-x;
+    background-size: auto 200%;
+    background-position: -25px -22px;
+    ;
+}
